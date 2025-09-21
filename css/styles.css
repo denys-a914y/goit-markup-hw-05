@@ -735,8 +735,13 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #fff;
+margin-bottom: 16px;
 }
+.footer-form{
+  gap: 24px;
 
+  display: flex
+}
 .email-sub{
 
 
@@ -745,29 +750,40 @@ border: 1px solid #fff;
 border-radius: 4px;
 width: 264px;
 height: 40px;
-background: transparent;
+background-color: transparent;
+font-size: 12px;
+line-height: 2;
+letter-spacing: 0.04em;
+padding-left: 16px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+color: #ffffff;
 }
 
 .email-sub::placeholder{
     font-family: "Roboto", sans-serif;
   font-weight: 400;
-  font-size: 12px;
+  
 
 /* line-height: 24px; */ 
-  line-height: 2;
-  letter-spacing: 0.04em;
+  
+  
   color: #fff;
-  padding-left: 16px;
+  
   
 
 }
 
 .sub-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 4px;
 padding: 8px 24px;
-width: 165px;
+min-width: 165px;
 height: 40px;
-background: #4d5ae5;
+background-color: #4d5ae5;
+ cursor: pointer;
 
 
 font-family: "Roboto", sans-serif;
@@ -777,13 +793,14 @@ font-size: 16px;
 /* line-height: 24px; */ 
 line-height: 1.5;
 letter-spacing: 0.04em;
-text-align: center;
+
 color: #fff;
 border: none;
 
 }
 .icon-icon-send{
   fill: #fff;
+  margin-left: 16px;
 }
 
 
