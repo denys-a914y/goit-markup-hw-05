@@ -1041,11 +1041,13 @@ color: #4d5ae5;
   
 }
 
-.modal-checkbox:checked{
+.modal-checkbox-input:checked{
   fill: #F4F4FD;
   border: none;
   .checkbox-span{
     background-color: #404bbf;
+    fill: #F4F4FD;
+  border: none;
   }
   
 }
