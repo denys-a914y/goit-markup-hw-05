@@ -1041,7 +1041,7 @@ color: #4d5ae5;
   
 }
 
-.modal-checkbox-input:checked{
+.modal-checkbox-input:unchecked{
   
   .checkbox-span{
     background-color: #404bbf;
