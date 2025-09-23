@@ -1040,15 +1040,11 @@ text-decoration-skip-ink: none;
 color: #4d5ae5;
   
 }
-
-.modal-checkbox-input:checked{
-  
-  .checkbox-span{
+.modal-check-box-input:checked + .modal-checkbox > .checkbox-span{
     background-color: #404bbf;
     fill: #F4F4FD;
-  border: none;
-  }
-  
+    border: none;
+
 }
 
 .modal-checkbox{
