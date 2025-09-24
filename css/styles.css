@@ -724,6 +724,10 @@ color: #fff;
 .subscribe{
   width: 453px;
 height: 80px;
+
+}
+.socialnii{
+  margin-right: 80px;
 }
 
 .par-sub{
@@ -789,6 +793,7 @@ background-color: #4d5ae5;
 font-family: "Roboto", sans-serif;
 font-weight: 500;
 font-size: 16px;
+
 
 /* line-height: 24px; */ 
 line-height: 1.5;
@@ -910,11 +915,7 @@ max-width: 360px;
 margin-bottom: 16px;
 
 }
-.modal-form{
-  border-radius: 4px;
-width: 360px;
-height: 336px;
-}
+
 
 .modal-input{
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -953,9 +954,9 @@ font-size: 12px;
 line-height: 1.17;
 letter-spacing: 0.04em;
 color: #8e8f99;
-padding-bottom: 4px;
+
 display: block;
-margin-bottom: 4px;
+
 }
 
 .modal-fuild{
@@ -1010,6 +1011,7 @@ margin-bottom: 4px;
   margin-right: auto;
   border-radius: 4px;
   padding: 16px 32px;
+  margin: 0 auto;
   
   
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
